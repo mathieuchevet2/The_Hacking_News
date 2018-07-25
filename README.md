@@ -12,6 +12,8 @@ Rails version : 5.2.0
 
  - clone the repo
  - bundle install
+ - rails db:migrate
+ - rails db:seed
 
 
 <h2> Tables </h2>
