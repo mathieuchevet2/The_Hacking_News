@@ -1,24 +1,28 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h1>The THP project name : The Hacking News</h1>
 
-Things you may want to cover:
 
-* Ruby version
+<h2> Configuration ruby & Rails</h2>
 
-* System dependencies
+Ruby version : 2.5.1
+<br>
+Rails version : 5.2.0
 
-* Configuration
+<h2> Install </h2>
 
-* Database creation
+ - clone the repo
+ - bundle install
 
-* Database initialization
 
-* How to run the test suite
+<h2> Tables </h2>
 
-* Services (job queues, cache servers, search engines, etc.)
+|   Users  |   liens  | Comment1S | Comment2S |
+|:--------:|:--------:|:---------:|:---------:|
+|    ID    |    ID    |     ID    |     ID    |
+| Fistname |   URLS   |  content  |  content  |
+| lastname | **users_id** |  **liens_id** |  **liens_id** |
+|   email  |          |  **users_id** |  **users_id** |
 
-* Deployment instructions
 
-* ...
+
+<h3>The focus of the project is to work with rails and how to create and manipulate the data base</h3>
